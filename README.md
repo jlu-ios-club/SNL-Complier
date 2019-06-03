@@ -1,5 +1,7 @@
 # SNL-Complier
 
+* 实现了全iOS平台（2019-06）的适配，准备上架结果被拒绝说功能太少（useless），界面样式详见实验报告。
+
 参考：(程序猿的事那能叫抄吗？那叫借用灵感！)
 1. [界面灵感](https://github.com/LiuChangFreeman/C--Compiler)
 2. [文法修正、集合求解参照](https://github.com/QiaoSteven/SNL-Compiler)
