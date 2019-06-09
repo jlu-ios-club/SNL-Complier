@@ -1,6 +1,7 @@
 # SNL-Complier
 
 * 实现了全iOS平台（2019-06）的适配，准备上架结果被拒绝说功能太少（useless），界面样式详见实验报告。
+* 页面上方的Projects是我本来想写但没有完成的功能，如果你想要完善并上架，可以试着添加上述功能。
 
 参考：(程序猿的事那能叫抄吗？那叫借用灵感！)
 1. [界面灵感](https://github.com/LiuChangFreeman/C--Compiler)
