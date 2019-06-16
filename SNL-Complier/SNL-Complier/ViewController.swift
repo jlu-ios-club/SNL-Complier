@@ -116,11 +116,13 @@ class ViewController: UIViewController {
         TextView.isEditable = false
         Button8.isUserInteractionEnabled = true
         Button8.alpha = 1
+        TextView.text = "语义分析未做，尽情期待"
     }
     
     @IBOutlet weak var Button8: UIButton!
     @IBAction func Button8(_ sender: UIButton) {
         TextView.isEditable = false
+        TextView.text = "中间代码未做，尽情期待"
     }
     
     override func viewDidLoad() {
