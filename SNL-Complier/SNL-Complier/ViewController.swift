@@ -116,13 +116,23 @@ class ViewController: UIViewController {
         TextView.isEditable = false
         Button8.isUserInteractionEnabled = true
         Button8.alpha = 1
-        TextView.text = "语义分析未做，尽情期待"
+        TextView.text = """
+        语义分析是编译过程的一个逻辑阶段， 语义分析的任务是对结构上正确的源程序进行上下文有关性质的审查，进行类型审查。
+        语义分析是审查源程序有无语义错误，为代码生成阶段收集类型信息
+        。比如语义分析的一个工作是进行类型审查，审查每个算符是否具有语言规范允许的运算对象，当不符合语言规范时，编译程序应报告错误。如有的编译程序要对实数用作数组下标的情况报告错误。
+        又比如某些程序规定运算对象可被强制，那么当二目运算施于一整型和一实型对象时，编译程序应将整型转换为实型而不能认为是源程序的错误。
+        (语义分析未做，尽情期待)
+        """
     }
     
     @IBOutlet weak var Button8: UIButton!
     @IBAction func Button8(_ sender: UIButton) {
         TextView.isEditable = false
-        TextView.text = "中间代码未做，尽情期待"
+        TextView.text = """
+        中间语言(中间代码)是一种面向语法，易于翻译成目标程序的源程序的等效内部表示代码。
+        其可理解性及易于生成目标代码的程度介于源语言和目标语言之间。常用的中间语言有逆波兰表示、四元式、三元式和树表示等。
+        (中间代码未做，尽情期待)
+        """
     }
     
     override func viewDidLoad() {
